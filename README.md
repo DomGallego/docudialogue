@@ -10,8 +10,9 @@ DocuDialogue is a Streamlit application that allows you to upload PDFs and inter
 ## Demo
 
 
-https://github.com/user-attachments/assets/292cd0c6-8787-450d-b729-ac38cbd078a4
 
+
+https://github.com/user-attachments/assets/175fde9d-e14c-4b2a-9164-59b87572b67e
 
 
 
