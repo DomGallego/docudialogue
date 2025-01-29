@@ -16,7 +16,28 @@ https://github.com/user-attachments/assets/175fde9d-e14c-4b2a-9164-59b87572b67e
 
 
 
+## Workflow 
 
+![alt text](image.png)
+
+- The priority was to allow users to ask questions about their documents in a
+“plug-and-play” fashion
+- Users are also allowed to choose between various models (gpt-4o, gpt-4o-mini, and
+gemini 2.0 flash) given that they have API keys for these models
+- Users are allowed to configure the model’s parameters (temperature, max tokens, top p)
+- Chroma DB was used as a vector store
+- Preprocessing steps of the PDF includes loading the PDF itself, splitting the text into
+chunks, and using an embedding model to store the embeddings to chroma vector
+database
+- It’s basically a two-step process, on the user-end, since they need to upload the
+document, and query it
+- Initially, OpenAI’s embedding models were used, but upon checking, it costs in the long
+run, so HuggingFace models were used as they are free
+- Anthropic’s Claude and Meta’s Llama were initially included in the model list, but due to
+limited time, it was scrapped
+- Streamlit still as a lot of limitations, as evidenced by a number of issues and feature
+requests found online
+    - In the future, exploration of gradio can be done to compare which is better
 
 ## Prerequisites
 
